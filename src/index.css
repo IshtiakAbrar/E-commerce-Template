@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Avenir:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    font-family: "Poppins","Avenir";
+    font-size: medium;
+
+}
+/*.showActive > .active {*/
+/*    background-color: darkorange;*/
+/*    border-radius: 5px;*/
+
+/*}*/
+
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+.active{
+    background-color: lightslategray;
+    border-radius: 5px;
+}
