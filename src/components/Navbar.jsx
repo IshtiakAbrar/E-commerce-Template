@@ -35,7 +35,7 @@ const Navbar = () => {
                             <li><NavLink to={"/contact"} className="hover:bg-gray-500">Contact Us</NavLink></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">TechZone</a>
+                    <NavLink to={"/"} className="btn btn-ghost text-xl">TechZone</NavLink>
                 </div>
                 {/*##############For large screen##############*/}
 
