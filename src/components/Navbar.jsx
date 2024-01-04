@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import {Link,NavLink} from "react-router-dom";
 import ReviewsPage from "../pages/ReviewPage.jsx";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
                             <li><NavLink to={"/contact"} className="hover:bg-gray-500">Contact Us</NavLink></li>
                         </ul>
                     </div>
-                    <NavLink to={"/"} className="btn btn-ghost text-xl">TechZone</NavLink>
+                    <Link to={"/"} className="btn btn-ghost text-xl">TechZone</Link>
                 </div>
                 {/*##############For large screen##############*/}
 
