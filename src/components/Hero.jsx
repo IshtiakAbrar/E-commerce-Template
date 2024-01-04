@@ -16,8 +16,8 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
+                        <a href="#slide4" className="btn btn-circle bg-transparent border-none">❮</a>
+                        <a href="#slide2" className="btn btn-circle bg-transparent border-none">❯</a>
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative bg-[#990000] text-white w-full justify-center">
@@ -30,8 +30,8 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
+                        <a href="#slide1" className="btn btn-circle bg-transparent border-none">❮</a>
+                        <a href="#slide3" className="btn btn-circle bg-transparent border-none">❯</a>
                     </div>
                 </div>
                 <div id="slide3" className="bg-[#f06f59] carousel-item relative w-full justify-center">
@@ -44,8 +44,8 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" className="btn btn-circle">❮</a>
-                        <a href="#slide4" className="btn btn-circle">❯</a>
+                        <a href="#slide2" className="btn btn-circle bg-transparent border-none">❮</a>
+                        <a href="#slide4" className="btn btn-circle bg-transparent border-none">❯</a>
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item relative w-full justify-center">
@@ -58,8 +58,8 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" className="btn btn-circle">❮</a>
-                        <a href="#slide1" className="btn btn-circle">❯</a>
+                        <a href="#slide3" className="btn btn-circle bg-transparent border-none">❮</a>
+                        <a href="#slide1" className="btn btn-circle bg-transparent border-none">❯</a>
                     </div>
                 </div>
             </div>
