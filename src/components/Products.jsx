@@ -29,7 +29,7 @@ const Products = () => {
                 <div className="bg-orange-500 lg:px-28 justify-center mt-[3rem] grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-16 overflow-x-auto  py-14 w-full">
 
                     {jsonData.map((item,i)=>{
-                        return <div key={i} className="card card-compact w-96 bg-base-100 shadow-2xl transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-105 duration-300">
+                        return <div key={i} className="card card-compact sm:gap-10 2xl:w-80 w-96 bg-base-100 shadow-2xl transition ease-in-out delay-0 hover:-translate-y-1 hover:scale-105 duration-300">
                             <figure className=" h-[15rem]"><img src={item["img"]} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{item["title"]}</h2>
